@@ -33,4 +33,9 @@ module "attribute-sensor" {
   deployment_id   = var.deployment_id
   deployment_name = var.deployment_name
   external_id     = random_uuid.external_id.id
+
+  logs_export_buckets = [
+    module.attribute-regional-us-east-1.bedrock_export_bucket_arn,
+    module.attribute-regional-us-east-2.bedrock_export_bucket_arn
+  ]
 }
