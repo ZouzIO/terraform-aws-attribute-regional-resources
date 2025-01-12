@@ -18,7 +18,7 @@
 |------|--------|---------|
 | <a name="module_attribute-regional-us-east-1"></a> [attribute-regional-us-east-1](#module\_attribute-regional-us-east-1) | ZouzIO/attribute-regional-resource/aws | ~> 1 |
 | <a name="module_attribute-regional-us-east-2"></a> [attribute-regional-us-east-2](#module\_attribute-regional-us-east-2) | ZouzIO/attribute-regional-resource/aws | ~> 1 |
-| <a name="module_attribute-sensor"></a> [attribute-sensor](#module\_attribute-sensor) | ZouzIO/attribute-sensor/aws | ~> 1 |
+| <a name="module_attribute-sensor"></a> [attribute-sensor](#module\_attribute-sensor) | ZouzIO/attribute-sensor/aws | ~> 1.1 |
 
 ## Resources
 

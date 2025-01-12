@@ -27,7 +27,7 @@ module "attribute-regional-us-east-2" {
 
 module "attribute-sensor" {
   source  = "ZouzIO/attribute-sensor/aws"
-  version = "~> 1"
+  version = "~> 1.1"
 
   organization_id = var.organization_id
   deployment_id   = var.deployment_id
