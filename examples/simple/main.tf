@@ -3,7 +3,7 @@ resource "random_uuid" "external_id" {}
 
 
 module "attribute-regional-us-east-1" {
-  source  = "ZouzIO/attribute-regional-resource/aws"
+  source  = "ZouzIO/attribute-regional-resources/aws"
   version = "~> 1"
 
   enable_bedrock_log_export = true
@@ -15,7 +15,7 @@ module "attribute-regional-us-east-1" {
 
 
 module "attribute-regional-us-east-2" {
-  source  = "ZouzIO/attribute-regional-resource/aws"
+  source  = "ZouzIO/attribute-regional-resources/aws"
   version = "~> 1"
 
   enable_bedrock_log_export = true
